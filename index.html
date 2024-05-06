@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yacine code | Rent Up</title>
+    <!--render all element normallay-->
+    <link rel="stylesheet" href="css/normalase.css">
+    <!--4ender web font-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--main template css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="nav__bar" id="nav-bar">
+                <div class="logo" id="logo">
+                    <img src="./imgs/logo3.png" alt="logo">
+                </div>
+                <div class="btn__nav__menu" id="btn-nav-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <ul class="nav__links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#exolore">Explore</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="btn btn__nav" id="btn-nav">Book Now</button>
+        </nav>
+        <section class="section__container header__container" id="home">
+            <p>Simple - Unique - Friendly</p>
+            <h1>Make Yourself At Home In Our <span>Hotel</span>.</h1>
+        </section>
+    </header>
+    <section class="section__container booking__container" id="booking">
+        <form action="/" class="booking__form">
+            <div class="input__group">
+                <span>
+                    <i class="fa-regular fa-calendar-minus"></i>
+                </span>
+                <div>
+                    <label for="checkIn">CHECK-IN</label>
+                    <input type="text" placeholder="Check in">
+                </div>
+            </div>
+            <div class="input__group">
+                <span>
+                    <i class="fa-regular fa-calendar-minus"></i>
+                </span>
+                <div>
+                    <label for="checkOut">CHECK-OUT</label>
+                    <input type="text" placeholder="Check Out">
+                </div>
+            </div>
+            <div class="input__group">
+                <span>
+                    <i class="fa-solid fa-user"></i>
+                </span>
+                <div>
+                    <label for="guest">GUEST</label>
+                    <input type="text" placeholder="Guest">
+                </div>
+            </div>
+            <div class="input__group input__btn">
+                <button class="btn">CHECK OUT</button>
+            </div>
+        </form>
+    </section>
+    <section class="section__container about__container" id="about">
+        <div class="imag__about">
+            <img src="./imgs/about.jpg" alt="">
+        </div>
+        <div class="about__content">
+            <p class="section__subheader">ABOUT US</p>
+            <h2 class="section__header">The Best Holidays Start Here!</h2>
+            <p class="section__desc">
+                With a focus on quality accommodations, personalized 
+                experiences, and seamless booking, our platform is 
+                dedicated to ensuring that every traveler embarks on 
+                their dream holiday with confidence and excitement.
+            </p>
+            <button class="btn">Read More</button>
+        </div>
+    </section>
+    <section class="section__container room__container">
+        <p class="section__subheader">OUR LIVING ROOM</p>
+        <h2 class="section__header">The Most Memorable Rest Time Starts Here.</h2>
+        <div class="grid__cards__room">
+            <div class="room__card">
+                <div class="img__room">
+                    <img src="./imgs/room-1.jpg" alt="roomOne">
+                    <div class="icons__room">
+                        <span><i class="fa-solid fa-heart"></i></span>
+                        <span><i class="fa-solid fa-fill-drip"></i></span>
+                        <span><i class="ri-shield-star-line"></i></span>
+                    </div>
+                </div>
+                <div class="info__room">
+                    <h4>Deluxe Ocean View</h4>
+                    <p class="section__desc">
+                        Bask in luxury with breathtaking ocean 
+                        views from your private suite
+                    </p>
+                    <h5>Starting from <span>$299/night</span></h5>
+                    <button class="btn btn__room__card">Book Now</button>
+                </div>
+            </div>
+            <div class="room__card">
+                <div class="img__room">
+                    <img src="./imgs/room-2.jpg" alt="roomOne">
+                    <div class="icons__room">
+                        <span><i class="fa-solid fa-heart"></i></span>
+                        <span><i class="fa-solid fa-fill-drip"></i></span>
+                        <span><i class="ri-shield-star-line"></i></span>
+                    </div>
+                </div>
+                <div class="info__room">
+                    <h4>Executive Cityscape Room</h4>
+                    <p class="section__desc">
+                        Experience urban elegance and modern 
+                        comfort in the heart of the city
+                    </p>
+                    <h5>Starting from <span>$199/night</span></h5>
+                    <button class="btn btn__room__card">Book Now</button>
+                </div>
+            </div>
+            <div class="room__card">
+                <div class="img__room">
+                    <img src="./imgs/room-3.jpg" alt="roomOne">
+                    <div class="icons__room">
+                        <span><i class="fa-solid fa-heart"></i></span>
+                        <span><i class="fa-solid fa-fill-drip"></i></span>
+                        <span><i class="ri-shield-star-line"></i></span>
+                    </div>
+                </div>
+                <div class="info__room">
+                    <h4>Family Garden Retreat</h4>
+                    <p class="section__desc">
+                        Spacious and inviting, perfect for creating 
+                        cherished memories with loved ones. 
+                    </p>
+                    <h5>Starting from <span>$249/night</span></h5>
+                    <button class="btn btn__room__card">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services__container" id="services">
+        <div class="section__container grid__services">
+            <div class="services__content">
+                <p class="section__subheader">SERVICES</p>
+                <h2 class="section__header">Strive Only For The Best.</h2>
+                <ul class="list__services">
+                    <li>
+                        <i class="ri-shield-star-line"></i>
+                        <span>High Class Security </span>
+                    </li>
+                    <li>
+                        <i class="ri-24-hours-line"></i>
+                        <span>24 Hours Room Service </span>
+                    </li>
+                    <li>
+                        <i class="ri-headphone-line"></i>
+                        <span>Conference Room</span>
+                    </li>
+                    <li>
+                        <i class="ri-map-2-line"></i>
+                        <span>Tourist Guide Support </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="section__container banner__container">
+        <div class="banner__content">
+            <div class="banner__card">
+                <h4>25+</h4>
+                <p>Properties Available</p>
+            </div>
+            <div class="banner__card">
+                <h4>350+</h4>
+                <p>Bookings Completed</p>
+            </div>
+            <div class="banner__card">
+                <h4>600+</h4>
+                <p>Happy Customers</p>
+            </div>
+        </div>
+    </section>
+    <section class="explore__container" id="explore">
+        <p class="section__subheader">EXPLORE</p>
+        <h2 class="section__header">What's New Today.</h2>
+        <div class="explore__bg">
+            <div class="grid__explore">
+                <div class="card__explore">
+                    <p>10th MAR 2023</p>
+                    <h4>A New Menu Is Available In Our Hotel.</h4>
+                    <button class="btn">Continue</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact" class="footer">
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <div class="logo">
+                    <a href="#home">
+                        <img src="./imgs/logo3.png" alt="">
+                    </a>
+                </div>
+                <p class="section__desc">
+                    Discover a world of comfort, luxury, and adventure as you explore our curated selection of hotels, 
+                    making every moment of your getaway truly extraordinary. 
+                </p>
+                <button class="btn">Book Now</button>
+            </div>
+            <div class="footer__col">
+                <h4>QUICK LINKS</h4>
+                <ul class="list__link">
+                    <li><a href="#">Browse Destinations</a></li>
+                    <li><a href="#">Special Offers & Packages</a></li>
+                    <li><a href="#">Room Types & Amenities</a></li>
+                    <li><a href="#">Customer Reviews & Ratings</a></li>
+                    <li><a href="#">Travel Tips & Guides</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>OUR SERVICES</h4>
+                <ul class="sevices__list__link">
+                    <li><a href="#">Concierge Assistance</a></li>
+                    <li><a href="#">Flexible Booking Options</a></li>
+                    <li><a href="#">Airport Transfers</a></li>
+                    <li><a href="#">Wellness & Recreation</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4 id="contact">CONTACT US</h4>
+                <a href="#">rayalpark@info.com</a>
+                <div class="social">
+                    <img src="./imgs/facebook.png" alt="">
+                    <img src="./imgs/instagram.png" alt="">
+                    <img src="./imgs/youtube.png" alt="">
+                    <img src="./imgs/twitter.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer__bar">
+            Copyright © 2024 Yacine Codes. All rights reserved. 
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
